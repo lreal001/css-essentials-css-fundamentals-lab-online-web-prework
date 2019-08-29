@@ -10,32 +10,31 @@ body {
 
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 nav a {
-  padding: 10px;
-  text-align: center;
+  padding: 0 10px;
   background-color: gray;
+  margin: 0 auto;
 }
 
-title {
-  font-size: 10px;
-  text-align: center;
-}
-
-featured-property p {
+#featured-property p {
   width: 800px;
   text-align: center;
+  margin: 0 auto;
 }
 
-<p style="text-align:right">
+nav,
+figcaption {
+  text-align: center;
+}
 
-div {
-  margin: auto;
+#details div {
+  text-align: center;
+  width: 25%;
+  background-color: red;
+  float: left;
 }
 
 
